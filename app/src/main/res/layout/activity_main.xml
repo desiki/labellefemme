@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.desiki.random.MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/portada"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/portada"/>
+
+    <ImageView
+            android:id="@+id/nails"
+            android:padding="@dimen/image_padding"
+            android:layout_below="@id/portada"
+            android:layout_width="@dimen/images"
+            android:layout_height="@dimen/images"
+            android:scaleType="fitCenter"
+            android:src="@drawable/nails1"/>
+
+        <TextView
+            android:id="@+id/text_nails"
+            android:layout_below="@id/portada"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text"
+            android:background="@android:color/white"
+            android:layout_toRightOf="@+id/nails"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:text="@string/nails"
+            android:fontFamily="serif"
+            android:typeface="normal"
+            android:textSize="24sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/text_nails_description"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text"
+            android:background="@android:color/white"
+            android:layout_toRightOf="@+id/nails"
+            android:layout_below="@+id/text_nails"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:text="@string/nails_description"
+            android:fontFamily="serif"
+            android:typeface="normal"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"/>
+
+        <ImageView
+            android:id="@+id/makeup"
+            android:layout_below="@id/nails"
+            android:padding="@dimen/image_padding"
+            android:layout_width="@dimen/images"
+            android:layout_height="@dimen/images"
+            android:scaleType="centerCrop"
+            android:src="@drawable/makeup"/>
+
+        <TextView
+            android:id="@+id/text_makeup"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text"
+            android:background="@android:color/white"
+            android:layout_below="@id/text_nails_description"
+            android:layout_toRightOf="@+id/makeup"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:text="@string/makeup"
+            android:fontFamily="serif"
+            android:typeface="normal"
+            android:textSize="24sp"
+            android:textStyle="normal|bold"/>
+
+        <TextView
+            android:id="@+id/text_makeup_description"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text"
+            android:layout_toRightOf="@+id/makeup"
+            android:layout_below="@+id/text_makeup"
+            android:background="@android:color/white"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:text="@string/makeup_description"
+            android:fontFamily="serif"
+            android:typeface="normal"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_below="@id/text_makeup_description"
+            android:text="@string/presentation"
+            android:textAlignment="center" />
+    </RelativeLayout>
+</ScrollView>

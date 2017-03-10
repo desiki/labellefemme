@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">La Belle Femme</string>
+    <string name="color_description">El corte de pelo que siempre has querido</string>
+    <string name="makeup">Maquillaje</string>
+    <string name="makeup_description">No te reconocerás</string>
+    <string name="nails">Uñas de porceloana</string>
+    <string name="nails_2">n/a</string>
+    <string name="nails_description">Tus uñas como nunca antes</string>
+    <string name="nails_description_2">Los mejores resultados en uñas</string>
+    <string name="presentation">Tu salón de belleza</string>
+    <string name="color">Tintes de pelo</string>
+</resources>

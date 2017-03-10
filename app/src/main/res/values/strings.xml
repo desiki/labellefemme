@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">La Belle Femme</string>
+    <string name="presentation">Your beauty salon</string>
+    <string name="nails">Nails</string>
+    <string name="nails_2">Uñas 2</string>
+    <string name="color">color</string>
+    <string name="makeup">makeup</string>
+    <string name="nails_description">Your nails as you have never seem before</string>
+    <string name="nails_description_2">Best nails ever</string>
+    <string name="makeup_description">You will not recognise yourself</string>
+    <string name="color_description">The haircut and color you ever wanted</string>
+
+</resources>
